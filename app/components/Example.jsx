@@ -10,7 +10,7 @@ var React = require('react');
 var Example = (props) => {
   return (
       <div>
-          <h2>Example page</h2>
+          <h2>Example page </h2>
           <p>welcome to git </p>
       </div>
   );

@@ -26640,9 +26640,18 @@
 	}); */
 	var About = function About(props) {
 	  return React.createElement(
-	    'h2',
+	    'div',
 	    null,
-	    'About'
+	    React.createElement(
+	      'h2',
+	      null,
+	      'About'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'hello people'
+	    )
 	  );
 	};
 	module.exports = About;
@@ -26669,7 +26678,7 @@
 	    React.createElement(
 	      'h2',
 	      null,
-	      'Example page'
+	      'Example page '
 	    ),
 	    React.createElement(
 	      'p',

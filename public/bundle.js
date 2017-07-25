@@ -26669,7 +26669,7 @@
 	    React.createElement(
 	      'h2',
 	      null,
-	      'Example page !!!! '
+	      'Example page'
 	    ),
 	    React.createElement(
 	      'p',

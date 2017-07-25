@@ -26664,9 +26664,18 @@
 	}); */
 	var Example = function Example(props) {
 	  return React.createElement(
-	    'h2',
+	    'div',
 	    null,
-	    'Example page !!!! '
+	    React.createElement(
+	      'h2',
+	      null,
+	      'Example page !!!! '
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'welcome to git '
+	    )
 	  );
 	};
 	module.exports = Example;
